@@ -92,7 +92,7 @@
                             A move is the operation of moving the last integer in any list and putting it on a different list.
                             If the target list is not empty, the last integer must be greater than the integer that is being moved.
                         </p>
-                        <h4>Chosen search algorithms</h4>
+                        <h4>Chosen Search Algorithms</h4>
                         <p>
                             I have chosen A* search and breadth-first search as the algorithms to calculate solutions for the
                             four-peg towers of hanoi problem.
@@ -111,7 +111,7 @@
                             ascending total cost of the state. States are pulled from the front of this queue - the cheapest
                             calculated state. A* is both optimal and complete.
                         </p>
-                        <h4>A* heuristics</h4>
+                        <h4>A* Heuristics</h4>
                         <p>
                             Heuristics are used in A* search to estimate the path length between a given state and the goal state.
                             The given state is reasoned about in context to the goal state, to give it a 'score'. This score
@@ -221,8 +221,8 @@
                               </tr>
                             </tbody>
                         </table>
-                        <h3>Experimental findings</h3>
-                        <h4>Search algorithm and heuristic comparison</h4>
+                        <h3>Experimental Findings</h3>
+                        <h4>Search Algorithm and Heuristic Comparison</h4>
                         <p>
                             The table below shows the compute time of the different search methods against an increasing tower size n.
                             Notice that the heuristics only make relatively significant improvements on compute time from n = 3. The
@@ -293,15 +293,15 @@
                               </tr>
                             </tbody>
                         </table>
-                        <h4>Heuristic capability and optimality</h4>
+                        <h4>Heuristic Capability and Optimality</h4>
                         <p>
                             Using these heuristics, the largest tower size n of an initial state that a solution can be computed for
                             in under 10 minutes is 7. As the A* search and breadth-first search algorithms are both optimal, all
                             values that are computed are the optimal solution. Within the 10 minute time limit, the system I have
                             implemented can compute the optimal solution for disc sizes [1-7].
                         </p>
-                        <h3>Pattern Database implementation</h3>
-                        <h4>Introduction and rationale</h4>
+                        <h3>Pattern Database Implementation</h3>
+                        <h4>Introduction and Rationale</h4>
                         <p>
                             To extend this project further, I implemented a pattern database heuristic that I plugged into my A*
                             algorithm. A pattern database heuristic pre-computes the 'true' score of subproblems in a problem space
@@ -444,7 +444,7 @@
                             against the problem size; At the edge of my system's computational power (at the 10 minute mark) PDB
                             performs the best. At every other point, it does not perform better than the other heuristics in the system.
                         </p>
-                        <h3>Conclustion</h3>
+                        <h3>Conclusion</h3>
                         <p>
                             In this project, I have explored various methods to compute a solution to the four-peg towers of hanoi
                             problem. I have created a list-based representation of the problem so that I can implement a system
